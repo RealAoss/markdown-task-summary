@@ -1,0 +1,15 @@
+{
+  "name": "markdown-task-summary",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Summarize checked and open Markdown tasks, including nested task items.",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./transform.mjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
